@@ -15,7 +15,7 @@ from hotkey import hotkey_listener
 class SurpriseApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Surprise产生器 - created by MrYue_5391")
+        self.root.title("Surprise产生器v1.2 - created by MrYue_5391")
         self.root.resizable(False, False)
 
         self.img_path = ""
