@@ -55,7 +55,7 @@ class SurpriseApp:
 
         self.btn_hide = tk.Button(self.root, text="隐藏至后台", command=self.hide_window)
         self.btn_hide.grid(row=3, column=0, columnspan=2, sticky='w', **padding)
-        tk.Label(self.root, text="按下CapsLock+Shift+Ctrl显示", fg="gray").grid(row=3, column=1, columnspan=2, sticky='e', **padding)
+        tk.Label(self.root, text="按下Ctrl+Shift+CapsLock显示", fg="gray").grid(row=3, column=1, columnspan=2, sticky='e', **padding)
 
         frame_action = tk.Frame(self.root)
         frame_action.grid(row=4, column=0, columnspan=3, pady=10)
